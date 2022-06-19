@@ -9,7 +9,7 @@ public class UpsLogin_Test {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		System.setProperty("webdriver.chrome.driver", "chromedriver");
+	System.setProperty("webdriver.chrome.driver", "chromedriver");
 		WebDriver driver = new ChromeDriver(); //  its Called Parent child up_Casting
 		
 		driver.get("https://www.ups.com/lasso/login");
